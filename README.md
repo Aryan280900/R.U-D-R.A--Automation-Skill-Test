@@ -20,9 +20,7 @@ This Python program **retrieves 100 news articles** from various sources and **i
 - **Scores each article** based on how many keywords match the persona’s interests.
 - Articles are **sorted by relevance**, ensuring the best matches are assigned.
 
-### 🔹 Guarantees Minimum 5 Articles per Persona
-- Each persona gets **at least 5 relevant articles**, if possible.
-- If more than 5 articles are available, **higher-scoring articles are prioritized**.
+
 
 ### 🔹 Well-Structured Output
 - Prints **personalized news feeds** for each user in the format:
@@ -46,39 +44,8 @@ This Python program **retrieves 100 news articles** from various sources and **i
 
 ---
 
-## 💡 Why This Matters?
 
-✔ Helps **filter out irrelevant news** and **deliver personalized content**.  
-✔ Saves **time and effort** by automatically categorizing news.  
-✔ Uses **AI and NLP** to **intelligently analyze** and **match news** to users.  
-✔ Can be **scaled** to handle **more personas and topics**.  
 
----
 
-## 🚀 Possible Enhancements
 
-- **Store the results in a JSON file** instead of printing.
-- **Email the curated news feed** to each user.
-- **Improve keyword extraction** using **advanced NLP techniques** (e.g., Named Entity Recognition).
-
----
-
-### 📩 How to Run
-
-1. Install dependencies:
-   ```sh
-   pip install requests spacy
-   python -m spacy download en_core_web_sm
-   ```
-2. Replace `API_KEY` in the script with your NewsAPI key.
-3. Run the script:
-   ```sh
-   python news_categorization.py
-   ```
-
----
-
-### 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
